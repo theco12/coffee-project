@@ -27,23 +27,7 @@
           <li><a href="/">STORE</a></li>
         </ul>
       </nav>
-      <ul class="sns">
-        <li>
-          <a href="/"><i class="fa-brands fa-youtube"></i></a>
-        </li>
-        <li>
-          <a href="/"><i class="fa-brands fa-twitter"></i></a>
-        </li>
-        <li>
-          <a href="/"><i class="fa-brands fa-instagram"></i></a>
-        </li>
-        <li>
-          <a href="/"><i class="fa-brands fa-facebook"></i></a>
-        </li>
-        <li>
-          <a href="/"><i class="fa-brands fa-tiktok"></i></a>
-        </li>
-      </ul>
+
       <div class="modal">
         <iframe
           width="720"
@@ -54,12 +38,12 @@
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
           allowfullscreen
         ></iframe>
-        <button
-          class="video2"
+        <span
+          class="close"
           onclick="document.querySelector('.modal').style.display = 'none';"
         >
-          트레일러 닫기
-        </button>
+          <i class="fa-solid fa-xmark"></i>
+        </span>
       </div>
       <button class="video" onclick="youtube()">트레일러 보기</button>
     </div>
