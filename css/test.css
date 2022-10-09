@@ -4,5 +4,28 @@ body {
 
 .container {
   width: 100%;
-  
+  background-color: #eee;
+  display: flex;
+  position: relative;
+  height: 110px;
+}
+
+.nav__logo {
+  height: 75px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+}
+
+.nav__menu {
+  display: flex;
+  position: absolute;
+  right: 0;
+}
+
+.nav__menu li {
+  list-style: none;
+  padding: 8px 16px;
+  text-align: right;
 }
