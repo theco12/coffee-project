@@ -1,7 +1,10 @@
-console.log("111");
+let a = 100; //전역변수
 
-let a = 100;
-let b = a;
-a = 200;
+function sample() {
+  let a = "내부의 A";
+  let b = 200; //함수안에서 만든 함수를 지역변수
+  console.log(a);
+}
 
-console.log(a, b);
+sample();
+// console.log(b);
