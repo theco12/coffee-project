@@ -76,7 +76,7 @@ body {
 .info {
   background-color: #fff;
   padding: 10px;
-  border-bottom: 1px solid #333;
+  border-bottom: 0.5px solid rgb(216, 216, 216);
 }
 .info_text {
   text-align: center;
@@ -89,7 +89,7 @@ body {
 
 .info_text p {
   font-size: 24px;
-  color: rgba(54, 59, 62, 0.5);
+  color: rgba(177, 177, 177, 0.5);
 }
 .info_container {
   width: 1440px;
@@ -109,4 +109,8 @@ body {
 
 .info_container .info_image p {
   font-size: 20px;
+}
+
+.background {
+  background-color: #e5e7eb;
 }
