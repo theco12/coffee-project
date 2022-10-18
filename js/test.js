@@ -8,3 +8,9 @@ function sample() {
 
 sample();
 // console.log(b);
+
+let 가격 = 10000;
+const 부가가치세율 = 0.1;
+let 부가가치세 = 가격 * 부가가치세율;
+
+console.log(부가가치세);
