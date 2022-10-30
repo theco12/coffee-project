@@ -29,6 +29,13 @@
       referrerpolicy="no-referrer"
     ></script>
     <script src="/js/main.js" defer></script>
+
+    <!-- in HEAD -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper@6.8.4/swiper-bundle.min.css"
+    />
+    <script src="https://unpkg.com/swiper@6.8.4/swiper-bundle.min.js"></script>
   </head>
   <body>
     <header>
@@ -414,7 +421,15 @@
         <div class="inner">
           <div class="inner__left">
             <h2>공지사항</h2>
-            <div class="swiper-container"></div>
+            <div class="swiper-container">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  [당첨자 발표] 스타벅스 플래너 영수증 이벤트
+                </div>
+                <div class="swiper-slide">스타벅스 이벤트 10월 프로모션</div>
+                <div class="swiper-slide">텀블러 추첨 이벤트</div>
+              </div>
+            </div>
             <a href="javascript:void(0)" class="notice-line__more">
               <div class="material-icon"></div>
             </a>
